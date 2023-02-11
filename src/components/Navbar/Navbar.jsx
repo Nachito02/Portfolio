@@ -15,7 +15,7 @@ const Navbar = () => {
 
             </ul>
 
-            <a href="#download" className='bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border-4'>My CV</a>
+            <a href="#download" className='bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border-4'>My resume</a>
         </div>
 
     </div>
