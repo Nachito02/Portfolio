@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { faGithub,faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import hr from '../../assets/curve-hr.svg'
 
 import image from '../../assets/code.png'
@@ -31,13 +30,13 @@ const Hiro = () => {
 
                     <ul className='flex mt-2 gap-4 items-center justify-center md:justify-start'>
                         <li>
-                            <a href="https://github.com/Nachito02" target="_blank">
+                            <a href="https://github.com/Nachito02" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon className='text-4xl' icon={faGithub} />
                             </a>
                         </li>
 
                         <li>
-                            <a href="https://linkedin.com/in/juanarguello02" target="_blank">
+                            <a href="https://linkedin.com/in/juanarguello02" rel="noreferrer" target="_blank">
                                 <FontAwesomeIcon className='text-4xl' icon={faLinkedin} />
                             </a>
                         </li>

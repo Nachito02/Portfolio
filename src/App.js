@@ -9,14 +9,14 @@ import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 function App() {
 
-    useEffect(() => {
-    
-    
-   
-      Aos.init()
-    }, [])
-    
+  useEffect(() => {
+    Aos.init();
 
+  }, []);
+   
+  
+
+   
   return (
     <div className="App  lg:px-20 xl:px-36 bg-dark-500">
 
