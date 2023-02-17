@@ -135,7 +135,7 @@ const Projects = () => {
       </div>
         
           <div className="mt-10 border w-2/6 mx-auto p-1 hover:bg-white hover:text-black transition-all ease-out duration-700">
-          {view === true ? (<button className=""onClick={() => (setProyects(projectsData.length), setView(!view) ) }>Mostrar Mas</button>) : (
+          {view === false ? (<button className=""onClick={() => (setProyects(projectsData.length), setView(!view) ) }>Mostrar Mas</button>) : (
             (<button className=""onClick={() => (setProyects(6), setView(!view) ) }>Mostrar Menos</button>)
           )}
           </div>
