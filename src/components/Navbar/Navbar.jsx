@@ -14,7 +14,7 @@ const Navbar = () => {
 
             </ul>
 
-            <a href="https://drive.google.com/file/d/1NpID0MsOPFRwE4enUBqZEhpsR8DwuV7p/view?usp=sharing" rel='noreferrer' target={"_blank"} className='bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border-4'>My resume</a>
+            <a href="https://drive.google.com/file/d/1tXaC5RIRt9qBijcFp7bs9JX3Hh932yTf/view?usp=share_link" rel='noreferrer' target={"_blank"} className='bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border-4'>My resume</a>
         </div>
 
     </div>
