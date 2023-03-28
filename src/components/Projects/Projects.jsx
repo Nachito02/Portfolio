@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import hr from "../../assets/curve-hr.svg";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import producthunt from "../../assets/producthunt.png";
@@ -14,9 +14,15 @@ import clima from "../../assets/clima.png";
 import template from "../../assets/template.png";
 import salon from "../../assets/salon.png";
 import node from "../../assets/nodesend.png";
-
+import emprendar from "../../assets/emprendar.png";
 const Projects = () => {
   const projectsData = [
+    {
+      img: emprendar,
+      name: "Emprendar",
+      description: "CrowFounding plattaform",
+      url: "https://emprendar-front.vercel.app/",
+    },
     {
       img: node,
       name: "React Node Send",
@@ -29,7 +35,7 @@ const Projects = () => {
       description: "task management app",
       url: "https://uptask-mern-frontend.vercel.app/",
     },
- 
+
     {
       img: rick,
       name: "Rick and Morty APP",
@@ -99,13 +105,10 @@ const Projects = () => {
     },
   ];
 
-  const [proyects, setProyects] = useState(6)
-  const [view, setView] = useState(false)
+  const [proyects, setProyects] = useState(6);
+  const [view, setView] = useState(false);
 
-
-    const arreglo = projectsData.slice(0, proyects)
-
-
+  const arreglo = projectsData.slice(0, proyects);
 
   return (
     <div id="projects" className=" text-white mt-10 relative">
@@ -124,22 +127,27 @@ const Projects = () => {
           );
         })}
 
-
-
-
         <img
           src={hr}
           className="absolute bottom-[-30px] md:h-2 w-full "
           alt=""
         />
       </div>
-        
-          <div className="mt-10 border w-2/6 mx-auto p-1 hover:bg-white hover:text-black transition-all ease-out duration-700">
-          {view === false ? (<button className=""onClick={() => (setProyects(projectsData.length), setView(!view) ) }>Mostrar Mas</button>) : (
-            (<button className=""onClick={() => (setProyects(6), setView(!view) ) }>Mostrar Menos</button>)
-          )}
-          </div>
 
+      <div className="mt-10 border w-2/6 mx-auto p-1 hover:bg-white hover:text-black transition-all ease-out duration-700">
+        {view === false ? (
+          <button
+            className=""
+            onClick={() => (setProyects(projectsData.length), setView(!view))}
+          >
+            Mostrar Mas
+          </button>
+        ) : (
+          <button className="" onClick={() => (setProyects(6), setView(!view))}>
+            Load more
+          </button>
+        )}
+      </div>
     </div>
   );
 };
