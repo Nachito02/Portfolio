@@ -140,11 +140,11 @@ const Projects = () => {
             className=""
             onClick={() => (setProyects(projectsData.length), setView(!view))}
           >
-            Mostrar Mas
+           Load more
           </button>
         ) : (
           <button className="" onClick={() => (setProyects(6), setView(!view))}>
-            Load more
+           Close
           </button>
         )}
       </div>
