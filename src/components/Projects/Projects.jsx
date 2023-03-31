@@ -20,32 +20,32 @@ const Projects = () => {
     {
       img: emprendar,
       name: "Emprendar",
-      description: "CrowFounding plattaform",
+      description: "CrowFounding plattaform this project use technologies like: Nextjs, socket.io, passportjs, nodemailer, JWT",
       url: "https://emprendar-front.vercel.app/",
     },
     {
       img: node,
       name: "React Node Send",
-      description: "imitation of the firefox send page",
+      description: "imitation of the firefox send page, this project use technologies like: Nextjs, nodejs, express, firebase, tailwindcss, JWT",
       url: "https://node-frontend.vercel.app/",
     },
     {
       img: uptask,
       name: "Uptsk Mern",
-      description: "task management app",
+      description: "task management app, this project use technologies like: Vitejs, Mongodb, nodejs, epress, socket.io, style components, JWT",
       url: "https://uptask-mern-frontend.vercel.app/",
     },
 
     {
       img: rick,
       name: "Rick and Morty APP",
-      description: "Application to search for rick and morty characters",
+      description: "Application to search for rick and morty characters, this project use technologies like: Reactjs, express, nodejs, postgresql ",
       url: "https://rick-and-morty-jade-six.vercel.app/",
     },
     {
       img: games,
       name: "Games APP",
-      description: "Application to search for games and filter options",
+      description: "Application to search for games and filter options, this project use technologies like: Reactjs, nodejs,express, postgresql",
       url: "https://henry-games-frontend.vercel.app/",
     },
     {
