@@ -37,6 +37,13 @@ const Projects = () => {
     },
 
     {
+      img: producthunt,
+      name: "Product hunt imitation",
+      description: "imitation of the hunt product page",
+      url: "https://producthuntnext-sandy.vercel.app/",
+    },
+
+    {
       img: rick,
       name: "Rick and Morty APP",
       description: "Application to search for rick and morty characters, this project use technologies like: Reactjs, express, nodejs, postgresql ",
@@ -60,12 +67,7 @@ const Projects = () => {
       description: "application to control expenses and manage budgets",
       url: "https://firstpresupuesto-react-app.netlify.app/",
     },
-    {
-      img: producthunt,
-      name: "Product hunt imitation",
-      description: "imitation of the hunt product page",
-      url: "https://producthuntnext-sandy.vercel.app/",
-    },
+   
     {
       img: cripto,
       name: "Cryptocurrency quote APP",
