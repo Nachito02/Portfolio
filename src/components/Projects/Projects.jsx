@@ -15,6 +15,9 @@ import template from "../../assets/template.png";
 import salon from "../../assets/salon.png";
 import node from "../../assets/nodesend.png";
 import emprendar from "../../assets/emprendar.png";
+import pintos from "../../assets/pintos.png";
+import wasage from "../../assets/wassage.png";
+
 const Projects = () => {
   const projectsData = [
     {
@@ -42,7 +45,18 @@ const Projects = () => {
       description: "imitation of the hunt product page",
       url: "https://producthuntnext-sandy.vercel.app/",
     },
-
+    {
+      img: pintos,
+      name: "Ecommerce",
+      description: "ecommerce with localstorage, mercado pago and google auth",
+      url: "https://pintos-ecommerce.vercel.app/",
+    },
+    {
+      img: wasage,
+      name: "Real-time messaging application",
+      description: "App with socket.io, Local Auth, MongoDB and React Context",
+      url: "https://wassage.vercel.app/",
+    },
     {
       img: rick,
       name: "Rick and Morty APP",
