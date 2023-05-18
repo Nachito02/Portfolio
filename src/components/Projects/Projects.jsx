@@ -17,6 +17,7 @@ import node from "../../assets/nodesend.png";
 import emprendar from "../../assets/emprendar.png";
 import pintos from "../../assets/pintos.png";
 import wasage from "../../assets/wassage.png";
+import spacex from "../../assets/spacex.png";
 
 const Projects = () => {
   const projectsData = [
@@ -56,6 +57,13 @@ const Projects = () => {
       name: "Real-time messaging application",
       description: "App with socket.io, Local Auth, MongoDB and React Context",
       url: "https://wassage.vercel.app/",
+    },
+    
+    {
+      img: spacex,
+      name: "SpaceX clone",
+      description: "Imitation of SpaceX landingPage",
+      url: "https://nachito02.github.io/spacex_clone/",
     },
     {
       img: rick,
@@ -118,7 +126,8 @@ const Projects = () => {
       name: "Simple template",
       description: "Simple template",
       url: "https://appsalontemplate.netlify.app/",
-    },
+    }
+
   ];
 
   const [proyects, setProyects] = useState(6);
