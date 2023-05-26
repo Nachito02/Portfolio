@@ -1,6 +1,8 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 const ProjectCard = (props) => {
+
+  const {t} = useTranslation()
   return (
     <a
     className="text-white"
@@ -15,7 +17,7 @@ const ProjectCard = (props) => {
 
         <div className="mt-2 text-left px-1">
           <h1 className="font-bold md:text-xl">{props.name}</h1>
-          <p className="font-light text-gray-400">{props.description} </p>
+          <p className="font-light text-gray-400">{t(props.description)} </p>
         </div>
       </div>
     </a>
