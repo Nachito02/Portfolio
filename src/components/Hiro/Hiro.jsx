@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import hr from '../../assets/curve-hr.svg'
-
+import { TypeAnimation } from 'react-type-animation'
 import image from '../../assets/code.png'
 const Hiro = () => {
 
@@ -22,10 +22,21 @@ const Hiro = () => {
 
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                     <div className='flex flex-col w-full mt-8 gap-1 text-center md:text-left'>
-                        <h1 className='text-xl text-gray-400'>Hi, i'm</h1>
+                        <h1 className='text-xl text-gray-400'>Hola, soy</h1>
                         <h1 className='text-2xl font-bold'>Juan Arguello</h1>
-                        <p className='text-xl font-bold text-gray-300'>Full Stack Developer</p>
-                        <p className='text-md font-light text-gray-400'>Passionate programmer and a lover of technology, I love learning something new every day regarding the world of programming</p>
+                        <p className='text-xl font-bold text-gray-300'><TypeAnimation
+                sequence={[
+                  "Full Stack Developer",
+                  2000,
+                  "Backend Developer",
+                  2000,
+                ]}
+                speed={5}
+                className="text-accent"
+                wrapper="span"
+                repeat={Infinity}
+              /></p>
+                        <p className='text-md font-light text-gray-400'>Un programador apassionado y amante de la tecnologia, Me encanta aprender cada dia un poco más sobre el mundo de la programacion.</p>
                     </div>
 
                     <ul className='flex mt-2 gap-4 items-center justify-center md:justify-start'>

@@ -8,13 +8,13 @@ const Navbar = () => {
             <p className='text-2xl'>Juan Arguello</p>
 
             <ul className='hidden md:flex'>
-                <li className='p-4'> <a className='hover:underline' href="#home">Home</a> </li>
-                  <li className='p-4'> <a className='hover:underline' href="#skills">Skills</a> </li>
-                  <li className='p-4'> <a className='hover:underline' href="#projects">Projects</a> </li>
+                <li className='p-4'> <a className='hover:underline' href="#home">Inicio</a> </li>
+                  <li className='p-4'> <a className='hover:underline' href="#skills">Tecnologias</a> </li>
+                  <li className='p-4'> <a className='hover:underline' href="#projects">Proyectos</a> </li>
 
             </ul>
 
-            <a href="https://drive.google.com/file/d/1tXaC5RIRt9qBijcFp7bs9JX3Hh932yTf/view?usp=share_link" rel='noreferrer' target={"_blank"} className='bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border-4'>My resume</a>
+            <a href="https://drive.google.com/file/d/1PKDoctGRqpWsZWkKXqQKwoOaz6OVno7j/view?usp=sharing" rel='noreferrer' target={"_blank"} className='bg-teal-500 rounded-full px-5 py-1  border-teal-800 border-4'>Mi CV</a>
         </div>
 
     </div>

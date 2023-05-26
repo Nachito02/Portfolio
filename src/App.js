@@ -15,7 +15,7 @@ function App() {
   }, []);
    
   return (
-    <div className="App  lg:px-20 xl:px-36 bg-dark-500">
+    <div className="lg:px-20 xl:px-36 bg-dark-500">
 
       < Navbar/>
       < Hiro />
