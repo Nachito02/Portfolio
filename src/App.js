@@ -20,7 +20,6 @@ function App() {
   const toogleDarkMode = () => {
   
     setDarkMode(!darkMode)
-    console.log(darkMode)
   }
    
   return (
