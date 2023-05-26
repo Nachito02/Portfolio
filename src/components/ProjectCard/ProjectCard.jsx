@@ -3,6 +3,7 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <a
+    className="text-white"
       href={props.url}
       target="_blank"
       rel="noreferrer"

@@ -23,11 +23,11 @@ function App() {
   }
    
   return (
-    <div className={`lg:px-20 xl:px-36 ${darkMode ? 'bg-dark-500' : 'bg-white' } transition-colors duration-300`}>
+    <div className={`App lg:px-20 xl:px-36 ${darkMode ? 'bg-dark-500' : 'bg-white' } transition-colors duration-300`}>
 
       < Navbar darkMode={darkMode} toogleDarkMode={toogleDarkMode} />
       < Hiro darkMode={darkMode} />
-      <Skills />
+      <Skills darkMode={darkMode} />
 
       <Projects darkMode={darkMode} />
 

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import hr from "../../assets/curve-hr.svg";
 import SkillCard from "../SkillCard/SkillCard";
 
-const Skills = () => {
+const Skills = ({darkMode}) => {
   const settings = {
     dots: false,
     autoplay: true,
@@ -16,9 +16,9 @@ const Skills = () => {
 
   return (
     <div id="skills" className=" text-white mt-20 md:mt-10 relative">
-      <h1 className="text-2xl font-bold">Tecnologias</h1>
+      <h1 className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-black' } transition-colors duration-300`}>Tecnologias</h1>
 
-      <p className="font-light text-gray-400">Tecnologias que manejo</p>
+      <p className={`font-light  ${darkMode ? 'text-gray-400' : 'text-black' } transition-colors duration-300`}>Tecnologias que manejo</p>
 
       <div className="mt-4">
         <Slider {...settings}>
