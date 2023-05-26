@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import hr from "../../assets/curve-hr.svg";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import projectsData from "../../data/project";
-const Projects = () => {
+const Projects = ({ darkMode }) => {
   const [proyects, setProyects] = useState(6);
   const [view, setView] = useState(false);
 
@@ -17,6 +17,7 @@ const Projects = () => {
         {arreglo.map((e, i) => {
           return (
             <ProjectCard
+              key={i}
               img={e.img}
               name={e.name}
               description={e.description}
@@ -32,7 +33,7 @@ const Projects = () => {
         />
       </div>
 
-      <div className="text-center mt-10 border w-2/6 mx-auto p-1 hover:bg-white cursor-pointer hover:text-black transition-all ease-out duration-700">
+      <div className={`text-center mt-10 border w-2/6 mx-auto p-1 hover:bg-white cursor-pointer hover:text-black transition-all ease-out duration-700 ${darkMode ? 'text-white border-white' : 'text-black border-black' }`}>
         {view === false ? (
           <button
             onClick={() => {

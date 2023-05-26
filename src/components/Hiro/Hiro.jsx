@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import hr from '../../assets/curve-hr.svg'
 import { TypeAnimation } from 'react-type-animation'
 import image from '../../assets/code.png'
-const Hiro = () => {
+const Hiro = ({darkMode}) => {
 
     const [loaded, setLoaded] = useState(true)
 
@@ -15,16 +15,16 @@ const Hiro = () => {
 
 
 
-    <div id="home" className='flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative' >
+    <div id="home" className={`flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center transition-colors duration-300 ${darkMode ? 'text-white' : 'text-black'  } relative`} >
         <div className='md:w-3/6 md:p-4 ft'>
             <img src={image} data-aos="flip-right" data-aos-duration="1500" data-aos-offset="100"  alt="" onLoad={ () =>  setLoaded(false)  } />
         </div>
 
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                     <div className='flex flex-col w-full mt-8 gap-1 text-center md:text-left'>
-                        <h1 className='text-xl text-gray-400'>Hola, soy</h1>
+                        <h1 className={`text-xl ${darkMode ? 'text-gray-400' : 'text-gray-600' } transition-colors duration-300 `}>Hola, soy</h1>
                         <h1 className='text-2xl font-bold'>Juan Arguello</h1>
-                        <p className='text-xl font-bold text-gray-300'><TypeAnimation
+                        <p className={`text-xl font-bold ${darkMode ? 'text-gray-400' : 'text-gray-600' } transition-colors duration-300`}><TypeAnimation
                 sequence={[
                   "Full Stack Developer",
                   2000,
@@ -32,11 +32,11 @@ const Hiro = () => {
                   2000,
                 ]}
                 speed={5}
-                className="text-accent"
+                className=""
                 wrapper="span"
                 repeat={Infinity}
               /></p>
-                        <p className='text-md font-light text-gray-400'>Un programador apassionado y amante de la tecnologia, Me encanta aprender cada dia un poco más sobre el mundo de la programacion.</p>
+                        <p className={`text-md font-light text-gray-400 ${darkMode ? 'text-gray-400' : 'text-gray-800' } transition-colors duration-300`}>Un programador apassionado y amante de la tecnologia, Me encanta aprender cada dia un poco más sobre el mundo de la programacion.</p>
                     </div>
 
                     <ul className='flex mt-2 gap-4 items-center justify-center md:justify-start'>

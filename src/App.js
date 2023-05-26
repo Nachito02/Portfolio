@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hiro from './components/Hiro/Hiro';
@@ -13,15 +13,24 @@ function App() {
     Aos.init();
 
   }, []);
+
+
+  const [darkMode, setDarkMode] = useState(true)
+
+  const toogleDarkMode = () => {
+  
+    setDarkMode(!darkMode)
+    console.log(darkMode)
+  }
    
   return (
-    <div className="lg:px-20 xl:px-36 bg-dark-500">
+    <div className={`lg:px-20 xl:px-36 ${darkMode ? 'bg-dark-500' : 'bg-white' } transition-colors duration-300`}>
 
-      < Navbar/>
-      < Hiro />
+      < Navbar darkMode={darkMode} toogleDarkMode={toogleDarkMode} />
+      < Hiro darkMode={darkMode} />
       <Skills />
 
-      <Projects />
+      <Projects darkMode={darkMode} />
 
       <Footer className='' />
           
