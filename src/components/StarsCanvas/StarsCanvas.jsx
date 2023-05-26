@@ -4,7 +4,6 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = ({ darkMode}) => {
-  console.log(darkMode)
   const ref = useRef();
   const [sphere] = useState(() => random.inSphere(new Float32Array(10001), { radius: 1.2 }));
 

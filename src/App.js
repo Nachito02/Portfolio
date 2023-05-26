@@ -29,7 +29,7 @@ function App() {
     <I18nextProvider i18n={i18n}>
     <div className={`App lg:px-20 xl:px-36 ${darkMode ? 'bg-dark-500' : 'bg-white' } transition-colors duration-300`}>
  
-      < Navbar darkMode={darkMode} toogleDarkMode={toogleDarkMode} />
+      <Navbar darkMode={darkMode} toogleDarkMode={toogleDarkMode} />
         <div className='relative z-0'>
         < Hiro darkMode={darkMode} />
           <StarsCanvas darkMode={darkMode} />

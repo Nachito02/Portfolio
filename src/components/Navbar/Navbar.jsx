@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faLanguage } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 
-const Navbar = ({ darkMode, toggleDarkMode }) => {
+const Navbar = ({ darkMode, toogleDarkMode,}) => {
   const [toggle, setToggle] = useState(false);
   const { t, i18n } = useTranslation();
 
@@ -24,7 +24,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         </ul>
         <div className='flex items-center gap-5'>
           <a href="https://drive.google.com/file/d/1PKDoctGRqpWsZWkKXqQKwoOaz6OVno7j/view?usp=sharing" rel='noreferrer' target={"_blank"} className='bg-teal-500 rounded-full px-5 py-1 text-white  border-teal-800 border-4'>{t('Mi CV')}</a>
-          <button onClick={toggleDarkMode}>
+          <button onClick={toogleDarkMode}>
             <FontAwesomeIcon icon={faMoon} className={`text-2xl ${darkMode ? 'text-white' : 'text-black'} transition-colors duration-300 `}/>
           </button>
           <button onClick={toggleLanguage}>
