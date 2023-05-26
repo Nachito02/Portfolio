@@ -11,9 +11,10 @@ const Hiro = ({darkMode}) => {
   return (
 
     <>
+
     {loaded ? <div className='fixed top-0 right-0 bottom-0 w-full h-screen overflow-hidden bg-white flex flex-col items-center justify-center'>Loading...</div> : null}
 
-
+ 
 
     <div id="home" className={`flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center transition-colors duration-300 ${darkMode ? 'text-white' : 'text-black'  } relative`} >
         <div className='md:w-3/6 md:p-4 ft'>
@@ -29,6 +30,8 @@ const Hiro = ({darkMode}) => {
                   "Full Stack Developer",
                   2000,
                   "Backend Developer",
+                  2000,
+                  "Frontend Developer",
                   2000,
                 ]}
                 speed={5}
