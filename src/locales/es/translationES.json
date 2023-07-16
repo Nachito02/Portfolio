@@ -3,12 +3,17 @@
     "Tecnologias": "Tecnologías",
     "Proyectos": "Proyectos",
     "Mi CV": "Mi CV",
-    "about" : "Un programador apassionado y amante de la tecnologia, Me encanta aprender cada dia un poco más sobre el mundo de la programacion.",
+    "about" : "Un programador apasionado y amante de la tecnologia, Me encanta aprender cada dia un poco más sobre el mundo de la programacion.",
     "skillTech" : "Tecnologias que manejo",
     "years" : "años",
     "pryectsh2" : "Algunos de mis proyectos",
 
+     "sobreMi" : "Sobre mi",
 
+    "aboutMe" : "Desarrollador Full Stack. Comprometido a seguir aprendiendo y manteniéndome actualizado en las últimas tendencias y tecnologías en el campo del desarrollo. Tengo experiencia en metodologías ágiles y Scrum, lo que me ha permitido trabajar de manera efectiva en equipos de desarrollo y cumplir con los objetivos del proyecto.",
+    "twitter" : "Un clon de la pagina de twitter que utiliza tecnologias como, SWR, Mongodb, Prisma entre otros",
+    "cpcosmeto": "Una plataforma para un estudio de cosmetologia, que sirve para sacar turnos y administrarlos",
+    "openvino"  : "Un panel de administracion para las bodegas de Openvino, utiliza tecnologias como NextJS, Websocket, tailwindcss y autenticación con metamask",
     "emprendar" : "Una plataforma de crowfounding que utiliza tecnologias como: Nextjs, socket.io, passportjs, nodemailer, JWT.",
     "dashboard" : "Plantilla de un dashboard hecha con NextJS y Tailwindcss.",
     "node": "Un clon de la pagina de firefox send que te permite subir y descargar archivos, este proyecto utiliza  tecnologias como: Nextjs, nodejs, express, firebase, tailwindcss, JWT.",

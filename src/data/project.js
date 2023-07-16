@@ -15,122 +15,144 @@ import emprendar from "../assets/emprendar.png";
 import pintos from "../assets/pintos.png";
 import wasage from "../assets/wassage.png";
 import spacex from "../assets/spacex.png";
-import dash from '../assets/dash.png'
+import dash from "../assets/dash.png";
+import openvino from "../assets/openvino.png";
+import cpcosmeto from "../assets/cpcosmeto.png";
+import twitter from "../assets/twitter.png";
+
 const projectsData = [
-    {
-      img: emprendar,
-      name: "Emprendar",
-      description: "emprendar",
-      url: "https://emprendar-front.vercel.app/",
-    },
-    {
-      img: dash,
-      name: "Next Dash",
-      description: "dashboard",
-      url: "https://next-dash-orcin.vercel.app/",
-    },
-    {
-      img: node,
-      name: "React Node Send",
-      description: "node",
-      url: "https://node-frontend.vercel.app/",
-    },
-    {
-      img: uptask,
-      name: "Uptsk Mern",
-      description: "uptask",
-      url: "https://uptask-mern-frontend.vercel.app/",
-    },
+  {
+    img: openvino,
+    name: "Openvino Dashboard",
+    description: "openvino",
+    url: "https://redeem-dashboard-shy8.vercel.app/",
+  },
 
-    {
-      img: producthunt,
-      name: "Product hunt imitation",
-      description: "productHunt",
-      url: "https://producthuntnext-sandy.vercel.app/",
-    },
-    {
-      img: pintos,
-      name: "Ecommerce",
-      description: "ecommerce",
-      url: "https://pintos-ecommerce.vercel.app/",
-    },
-    {
-      img: wasage,
-      name: "Real-time messaging application",
-      description: "message",
-      url: "https://wassage.vercel.app/",
-    },
-    
-    {
-      img: spacex,
-      name: "SpaceX clone",
-      description: "spacex",
-      url: "https://nachito02.github.io/spacex_clone/",
-    },
-    {
-      img: rick,
-      name: "Rick and Morty APP",
-      description: "rick",
-      url: "https://rick-and-morty-jade-six.vercel.app/",
-    },
-    {
-      img: games,
-      name: "Games APP",
-      description: "games",
-      url: "https://henry-games-frontend.vercel.app/",
-    },
-    {
-      img: veterin,
-      name: "veterinary APP",
-      description: "veterinary",
-      url: "https://reactpacienes.netlify.app/",
-    },
-    {
-      img: gastos,
-      name: "Cost control APP",
-      description: "constcontrol",
-      url: "https://firstpresupuesto-react-app.netlify.app/",
-    },
-   
-    {
-      img: cripto,
-      name: "Cryptocurrency quote APP",
-      description:
-        "cripto",
-      url: "https://convertidor-cripto.netlify.app/",
-    },
-    {
-      img: client,
-      name: "Customer admin APP",
-      description: "customer",
-      url: "https://compassionate-sinoussi-2a0d03.netlify.app/",
-    },
-    {
-      img: seguros,
-      name: "Insurance quoter APP",
-      description: "insurance",
-      url: "https://cotizacion-reactjs.netlify.app/",
-    },
-    {
-      img: clima,
-      name: "Weather APP",
-      description: "clima",
-      url: "https://clima-reactjsx.netlify.app/",
-    },
-    {
-      img: template,
-      name: "Simple template",
-      description: "raices",
-      url: "https://templatebienesr.netlify.app/",
-    },
-    {
-      img: salon,
-      name: "Simple template",
-      description: "barber",
+  {
+    img: twitter,
+    name: "Twitter Clone",
+    description: "twitter",
+    url: "https://twitter-nachito02.vercel.app/",
+  },
 
-      url: "https://appsalontemplate.netlify.app/",
-    }
+  {
+    img: cpcosmeto,
+    name: "CP cosmeto",
+    description: "cpcosmeto",
+    url: "https://cpcosmeto.vercel.app/",
+  },
+  {
+    img: emprendar,
+    name: "Emprendar",
+    description: "emprendar",
+    url: "https://emprendar-front.vercel.app/",
+  },
+  {
+    img: dash,
+    name: "Next Dash",
+    description: "dashboard",
+    url: "https://next-dash-orcin.vercel.app/",
+  },
+  {
+    img: node,
+    name: "React Node Send",
+    description: "node",
+    url: "https://node-frontend.vercel.app/",
+  },
+  {
+    img: uptask,
+    name: "Uptsk Mern",
+    description: "uptask",
+    url: "https://uptask-mern-frontend.vercel.app/",
+  },
 
-  ];
+  {
+    img: producthunt,
+    name: "Product hunt imitation",
+    description: "productHunt",
+    url: "https://producthuntnext-sandy.vercel.app/",
+  },
+  {
+    img: pintos,
+    name: "Ecommerce",
+    description: "ecommerce",
+    url: "https://pintos-ecommerce.vercel.app/",
+  },
+  {
+    img: wasage,
+    name: "Real-time messaging application",
+    description: "message",
+    url: "https://wassage.vercel.app/",
+  },
 
-  export default projectsData
+  {
+    img: spacex,
+    name: "SpaceX clone",
+    description: "spacex",
+    url: "https://nachito02.github.io/spacex_clone/",
+  },
+  {
+    img: rick,
+    name: "Rick and Morty APP",
+    description: "rick",
+    url: "https://rick-and-morty-jade-six.vercel.app/",
+  },
+  {
+    img: games,
+    name: "Games APP",
+    description: "games",
+    url: "https://henry-games-frontend.vercel.app/",
+  },
+  {
+    img: veterin,
+    name: "veterinary APP",
+    description: "veterinary",
+    url: "https://reactpacienes.netlify.app/",
+  },
+  {
+    img: gastos,
+    name: "Cost control APP",
+    description: "constcontrol",
+    url: "https://firstpresupuesto-react-app.netlify.app/",
+  },
+
+  {
+    img: cripto,
+    name: "Cryptocurrency quote APP",
+    description: "cripto",
+    url: "https://convertidor-cripto.netlify.app/",
+  },
+  {
+    img: client,
+    name: "Customer admin APP",
+    description: "customer",
+    url: "https://compassionate-sinoussi-2a0d03.netlify.app/",
+  },
+  {
+    img: seguros,
+    name: "Insurance quoter APP",
+    description: "insurance",
+    url: "https://cotizacion-reactjs.netlify.app/",
+  },
+  {
+    img: clima,
+    name: "Weather APP",
+    description: "clima",
+    url: "https://clima-reactjsx.netlify.app/",
+  },
+  {
+    img: template,
+    name: "Simple template",
+    description: "raices",
+    url: "https://templatebienesr.netlify.app/",
+  },
+  {
+    img: salon,
+    name: "Simple template",
+    description: "barber",
+
+    url: "https://appsalontemplate.netlify.app/",
+  },
+];
+
+export default projectsData;
