@@ -12,7 +12,7 @@ const Hiro = ({ darkMode }) => {
   return (
     <>
       {loaded ? (
-        <div className="fixed top-0 right-0 bottom-0 w-full h-screen overflow-hidden bg-white flex flex-col items-center justify-center">
+        <div className="fixed z-30 top-0 right-0 bottom-0 w-full h-screen overflow-hidden bg-[#176B87] flex flex-col items-center justify-center">
           Loading...
         </div>
       ) : null}
@@ -74,7 +74,7 @@ const Hiro = ({ darkMode }) => {
                 darkMode ? "text-gray-400" : "text-gray-800"
               } transition-colors duration-300`}
             >
-             {t('about')}
+              {t("about")}
             </p>
           </div>
 

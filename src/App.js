@@ -11,6 +11,7 @@ import StarsCanvas from "./components/StarsCanvas/StarsCanvas";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./config/i18n";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Experience from "./components/Experience/Experience";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -26,7 +27,7 @@ function App() {
     <I18nextProvider i18n={i18n}>
       <div
         className={`App lg:px-20 xl:px-36 ${
-          darkMode ? "bg-dark-500" : "bg-white"
+          darkMode ? "bg-[#001C30]" : "bg-white"
         } transition-colors duration-300`}
       >
         <Navbar darkMode={darkMode} toogleDarkMode={toogleDarkMode} />
@@ -37,6 +38,8 @@ function App() {
         <Skills darkMode={darkMode} />
 
         <AboutMe darkMode={darkMode} />
+
+        <Experience  darkMode={darkMode}/>
 
         <Projects darkMode={darkMode} />
 

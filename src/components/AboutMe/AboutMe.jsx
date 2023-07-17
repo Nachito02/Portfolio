@@ -3,8 +3,7 @@ import hr from "../../assets/curve-hr.svg";
 import profile from "../../assets/profilebg.png";
 import { useTranslation } from "react-i18next";
 const AboutMe = ({ darkMode }) => {
-
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   return (
     <>
       <div
@@ -19,19 +18,18 @@ const AboutMe = ({ darkMode }) => {
             <div className="flex flex-col md:flex-row items-center gap-10 ">
               <div className="flex-[2]">
                 <img
-                  className="rounded-[100%]  border-2 border-violet-800"
+                  className="rounded-[100%]  border-2 border-[#176B87]"
                   src={profile}
                   alt=""
                 />
               </div>
 
               <div className="flex-[3]">
-                <p className="text-lg  md:text-left">
-                  {t("aboutMe")}
-                </p>
-                <button  className='bg-teal-500 rounded-full px-10 w-full py-1 mt-10 text-white  border-teal-800 border-4'>{t('Contacto')}</button>
+                <p className="text-lg  md:text-left">{t("aboutMe")}</p>
+                <button className="bg-[#176B87] rounded-full px-5 py-1 text-white  border-[#64CCC5] border-4 mt-5 w-full animate-pulse">
+                  {t("Contacto")}
+                </button>
               </div>
-              
             </div>
           </div>
         </div>
