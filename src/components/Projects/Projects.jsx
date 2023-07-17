@@ -11,11 +11,11 @@ const Projects = ({ darkMode }) => {
   const arreglo = projectsData.slice(0, proyects);
 
   return (
-    <div id="projects" className={`  ${darkMode ? 'text-white' : 'text-black' } transition-colors duration-300 mt-10 relative`}>
+    <div id="projects" className={`  ${darkMode ? 'text-white' : 'text-black' } transition-colors duration-300 mt-10 relative px-2`}>
       <h1 className="text-2xl font-bold">{t('Proyectos')}</h1>
       <p className={`font-light  ${darkMode ? 'text-gray-400' : 'text-black' } transition-colors duration-300`}>{t('pryectsh2')}</p>
 
-      <div className="grid grid-cols-1 px-4 md:px-0 md:grid-cols-3 justify-center mt-4 gap-5">
+      <div className=" grid grid-cols-1 px-4 md:px-0 md:grid-cols-2 lg:grid-cols-3 justify-center mt-4 gap-5">
         {arreglo.map((e, i) => {
           return (
             <ProjectCard

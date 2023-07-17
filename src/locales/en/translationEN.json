@@ -9,9 +9,9 @@
   "years": "years",
   "pryectsh2": "Some of my projects",
 
-  "sobreMi" : "About me",
-  "aboutMe" : "Full Stack Developer. Committed to continuous learning and staying updated on the latest trends and technologies in the field of development. I have experience with agile methodologies and Scrum, which have allowed me to work effectively in development teams and meet project objectives." , 
-
+  "sobreMi": "About me",
+  "aboutMe": "Full Stack Developer. Committed to continuous learning and staying updated on the latest trends and technologies in the field of development. I have experience with agile methodologies and Scrum, which have allowed me to work effectively in development teams and meet project objectives.",
+  "ContactoForm": "Contact Me",
   "twitter": "A Twitter page clone that uses technologies such as SWR, MongoDB, Prisma, among others.",
   "cpcosmeto": "A platform for a cosmetology study, used to schedule and manage appointments.",
   "openvino": "An administration panel for Openvino wineries, utilizing technologies like NextJS, Websocket, Tailwind CSS, and authentication with MetaMask.",

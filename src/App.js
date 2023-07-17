@@ -12,6 +12,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "./config/i18n";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from "./components/Experience/Experience";
+import Contact from "./components/Contact/Contact";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -39,9 +40,10 @@ function App() {
 
         <AboutMe darkMode={darkMode} />
 
-        <Experience  darkMode={darkMode}/>
+        <Experience darkMode={darkMode} />
 
         <Projects darkMode={darkMode} />
+        <Contact darkMode={darkMode} />
 
         <Footer className="" />
       </div>

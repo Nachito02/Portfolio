@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
   const { t } = useTranslation();
   return (
     <a
-      className="text-white  md:hover:scale-105 transition-all duration-1000 "
+      className="text-white  "
       href={props.url}
       target="_blank"
       rel="noreferrer"
