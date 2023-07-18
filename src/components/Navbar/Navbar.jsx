@@ -21,6 +21,10 @@ const Navbar = ({ darkMode, toogleDarkMode,}) => {
           <li className='p-4'> <a className='hover:underline' href="#home">{t('Inicio')}</a> </li>
           <li className='p-4'> <a className='hover:underline' href="#skills">{t('Tecnologias')}</a> </li>
           <li className='p-4'> <a className='hover:underline' href="#projects">{t('Proyectos')}</a> </li>
+          <li className='p-4'> <a className='hover:underline' href="#contact">{t('AboutMe')}</a> </li>
+
+          <li className='p-4'> <a className='hover:underline' href="#contact">{t('Contacto')}</a> </li>
+
         </ul>
         <div className='flex items-center gap-5'>
           <a href="https://drive.google.com/file/d/1PKDoctGRqpWsZWkKXqQKwoOaz6OVno7j/view?usp=sharing" rel='noreferrer' target={"_blank"} className='bg-[#176B87] rounded-full px-5 py-1 text-white  border-[#64CCC5] border-4'>{t('Mi CV')}</a>

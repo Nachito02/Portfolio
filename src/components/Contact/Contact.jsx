@@ -4,13 +4,13 @@ import { useTranslation } from "react-i18next";
 const Contact = ({ darkMode }) => {
   const { t } = useTranslation();
   return (
-    <div className={`mt-10`}>
+    <div className={`mt-10`} id="contact">
       <h1
         className={`text-2xl font-bold ${
           darkMode ? "text-white" : "text-black"
         } transition-colors duration-300`}
       >
-        {t("ContactoForm")}
+        {t("contactameh2")}
       </h1>
 
       <div className="flex flex-col md:flex-row mt-2">
@@ -23,12 +23,12 @@ const Contact = ({ darkMode }) => {
           >
             <div className="flex flex-col mb-4">
               <label className=" mb-1" htmlFor="name">
-                Full Name
+               {t('nameLabel')}
               </label>
               <input
                 id="name"
                 className="w-full bg-[#DAFFFB] px-5 py-2 border border-gray-300  border-opacity-50 rounded-md shadow-sm text-md"
-                placeholder="Full Name"
+                placeholder={t('nameLabel')}
                 type="text"
               />
             </div>
@@ -46,18 +46,18 @@ const Contact = ({ darkMode }) => {
 
             <div className="flex flex-col mb-4">
               <label className=" mb-1" htmlFor="Email">
-                Subject
+              {t('subjectLabel')}
               </label>
               <input
                 className="w-full  bg-[#DAFFFB]  px-5 py-2 border border-gray-300 border-opacity-50 rounded-md shadow-sm text-md"
-                placeholder="Subject"
+                placeholder={t('subjectLabel')}
                 type="text"
               />
             </div>
 
             <div className="flex flex-col mb-4">
               <label className=" mb-1" htmlFor="message">
-                Message
+              {t('mensajeLabel')}
               </label>
               <textarea
                 name="message"
@@ -70,7 +70,7 @@ const Contact = ({ darkMode }) => {
 
             <div className="text-center mt-4">
             <button className="bg-[#176B87] text px-5 py-2  rounded-sm">
-                Send Message
+                {t("enviarButton")}
               </button>
             </div>
           </form>
