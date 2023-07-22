@@ -5,7 +5,7 @@ const Contact = ({ darkMode }) => {
   const { t } = useTranslation();
   return (
     <div className={`mt-10`} id="contact">
-      <h1
+      <h1  
         className={`text-2xl font-bold ${
           darkMode ? "text-white" : "text-black"
         } transition-colors duration-300`}
